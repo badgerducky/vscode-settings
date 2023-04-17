@@ -1,0 +1,126 @@
+{
+    "editor.dragAndDrop": false,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "typescript",
+        "javascript"
+    ],
+    "[JSON]": {
+        "editor.formatOnSave": true
+    },
+    "[YAML]": {
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.wordBasedSuggestions": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true,
+    },
+    "python.linting.pylintEnabled": false,
+    "flake8.args": [
+        "--max-line-length=120",
+        "--max-cognitive-complexity=14"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "120"],
+
+    "docker.containers.label": "ContainerName",
+    "docker.containers.sortBy": "Label",
+
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/__pycache__/": true,
+        "**/.hypothesis/": true
+    },
+    "search.exclude": {
+        "**/__pycache__/": true,
+        "**/.*_cache/": true,
+        "**/.hypothesis/": true,
+        "**/*-bundle.js.map": true,
+        "**/*-container.json": true,
+        "**/*.js.map": true,
+        "**/*.svg": true,
+        "**/app/static/": true,
+        "**/binaries/**": true,
+        "**/bundle.js": true,
+        "**/lib/*python*/": true,
+        "**/lib64/*python*/": true,
+        "**/package-lock.json": true,
+        "**/testcases/*.md": true
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "cSpell.language": "en,en-US",
+    "cSpell.allowCompoundWords": true,
+    "cSpell.userWords": [
+        "aioredis",
+        "COMMS",
+        "cslite",
+        "distros",
+        "dport",
+        "exfiltrate",
+        "FAAS",
+        "FOUO",
+        "JBLOCKS",
+        "lxml",
+        "MISP",
+        "mispevent",
+        "mkdir",
+        "msecs",
+        "NOSONAR",
+        "NSRL",
+        "ODNI",
+        "pycache",
+        "pydantic",
+        "Pylance",
+        "pylint",
+        "pytest",
+        "pythonify",
+        "pyzipper",
+        "RABBITMQ",
+        "ssdeep",
+        "starlette",
+        "TRAEFIK",
+        "UNCLASS",
+        "Unstyled",
+        "wkspbroker",
+        "xlsxwriter",
+        "xslx",
+        "YARA"
+    ],
+    "gitlens.rebaseEditor.ordering": "asc",
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default",
+        "*.bin": "default"
+    },
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "indentRainbow.colors": [
+        "rgba(3, 4, 94,0.15)",
+        "rgba(2, 62, 138,0.15)",
+        "rgba(0, 119, 182, 0.15)",
+        "rgba(0, 150, 199,0.15)",
+        "rgba(0, 180, 216,0.15)",
+        "rgba(72, 202, 228,0.15)",
+        "rgba(144, 224, 239,0.15)",
+        "rgba(144, 224, 239,0.1)",
+        "rgba(144, 224, 239,0.05)",
+        "rgba(144, 224, 239,0.025)"
+    ],
+
+    //"python.analysis.typeCheckingMode": "basic",
+    //"python.languageServer": "Pylance",
+    //"python.formatting.blackPath": "black",
+    //"python.formatting.provider": "black",
+}
